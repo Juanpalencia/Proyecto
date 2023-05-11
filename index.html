@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="eng">
-
-
-
+<html lang="en">
 
 
 <head>
@@ -16,29 +13,83 @@
 
 </head>
 
+
 <body>
+
+
+    <style>
+        header {
+
+            display: flex;
+            justify-content: space-between;
+            height: 70px;
+            background-color: coral;
+
+            .color-bienvenida {
+                color: aliceblue;
+            }
+
+        }
+
+
+        main {
+
+            display: flex;
+            justify-content: center;
+            height: 600px;
+            background-color: darkgrey;
+
+            .color-formulario {
+                color: orangered;
+            }
+        }
+
+        header img {
+
+            height: 70px;
+            margin-right: 5px
+        }
+
+
+        footer {
+
+            text-align: center;
+            height: 100px;
+            background-color: coral;
+            .despedida {
+                color: aliceblue;
+            }
+        }
+
+    </style>
+
     <header>
         <nav>
             <header>
-
-                <h1> BIENVENIDOS A HOLAMUNDO.COM<br>
-                <br>
-                Complete el formulario de ingreso </h1>
-
+                <img src="/assets/img/logo" alt="">
+                <h1 class="color-bienvenida">Encuesta nacional de aprendizaje </h1><br>
             </header>
-
         </nav>
     </header>
 
 
-
     <main>
-        <form action="">
 
-            <label for="Nombre"> Nombre</label>
+        <form action="">
+            <h1 class="color-formulario">Complete el formulario de ingreso </h1>
+            <label for="P_Nombre"> Primer Nombre</label>
             <input type="text"><br>
             <br>
-            <label for="Edad">   Edad </label>
+            <label for="S_Nombre"> Segundo Nombre</label>
+            <input type="text"><br>
+            <br>
+            <label for="P_Apellido">Primer apellido</label>
+            <input type="text"><br>
+            <br>
+            <label for="S_apellido">Segundo apellido</label>
+            <input type="text"><br>
+            <br>
+            <label for="Edad"> Edad </label>
             <input type="number"><br>
             <br>
             <label for="Email"> Email: </label>
@@ -56,7 +107,7 @@
             <br>
             <br>
             <label for="Sugerencias">Sugerencias </label><br>
-            <textarea name="Sugerencias"></textarea><br>
+            <textarea name="Sugerencias"></textarea>
             <button type="submit">Enviar</button>
 
         </form>
@@ -64,9 +115,11 @@
 
     </main>
 
+    <footer>
+        <br>
+        <h2 class="despedida">¡¡Gracias por responder la encuesta!!</h2>
     </footer>
-    <h2>Gracias por responder la encuesta <br></h2>
-    </footer>
+
 </body>
 
 </html>
