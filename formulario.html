@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="fotos de gatitos">
     <meta name="robots" content="index, unfollow">
+    <link rel="stylesheet" href="style.css">
     <title>hola mundo</title>
 
 </head>
@@ -18,6 +19,19 @@
 
 
     <style>
+        @media screen and (min-width: 780px) and (max-width: 1440px) {
+            .color-bienvenida:hover{
+                color: aquamarine;
+            }
+            .color-formulario:hover{
+                color: aliceblue;
+            }
+            .agradecimiento:hover{
+                color: aqua;
+            }
+        }
+
+
         header {
 
             display: flex;
@@ -35,39 +49,40 @@
         main {
 
             display: flex;
-            justify-content: center;
-            height: 600px;
+            justify-content: center;       
             background-color: darkgrey;
 
-            .color-formulario {
+            .color-formulario{
                 color: orangered;
             }
+
+            cursor: pointer;
         }
 
         header img {
-
             height: 70px;
-            margin-right: 5px
+            margin-right: 10px;
         }
 
 
         footer {
 
             text-align: center;
-            height: 100px;
+           height: 100px;
             background-color: coral;
-            .despedida {
+
+            .agradecimiento {
                 color: aliceblue;
             }
-        }
 
+        }
     </style>
 
     <header>
         <nav>
             <header>
                 <img src="/assets/img/logo" alt="">
-                <h1 class="color-bienvenida">Encuesta nacional de aprendizaje </h1><br>
+                  <h1 class="color-bienvenida">Encuesta nacional de aprendizaje </h1><br>
             </header>
         </nav>
     </header>
@@ -117,7 +132,7 @@
 
     <footer>
         <br>
-        <h2 class="despedida">¡¡Gracias por responder la encuesta!!</h2>
+        <h2 class="agradecimiento">¡¡Gracias por responder la encuesta!!</h2>
     </footer>
 
 </body>
