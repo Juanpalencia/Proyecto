@@ -1,6 +1,79 @@
 
+@media screen and (min-width: 780px) and (max-width: 1440px) {
+    .color-bienvenida:hover {
+        color: aquamarine;
+    }
 
-.color-bienvenida{
+    .color-formulario:hover {
+        color: aliceblue;
+    }
 
-    color: brown;
+    .agradecimiento:hover {
+        color: aqua;
+    }
+}
+
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: coral;
+
+    .color-bienvenida {
+        color: aliceblue;
+    }
+
+}
+
+
+main {
+
+    display: flex;
+    justify-content: center;
+    background-color: darkgrey;
+
+    .color-formulario {
+        color: orangered;
+    }
+
+    cursor: pointer;
+}
+
+header img {
+    height: 70px;
+    margin-right: 10px;
+}
+
+
+footer {
+
+    text-align: center;
+    height: 100px;
+    background-color: coral;
+
+    .agradecimiento {
+        color: aliceblue;
+    }
+
+}
+
+
+
+.header{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+background-color: black;
+}
+
+.title--1 {
+    color: #744967;
+}
+
+.tittle--2 {
+    color: aqua;
 }
