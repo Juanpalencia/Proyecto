@@ -1,34 +1,69 @@
 
-    body { text-align: center; font:300 20px/1.7 'Roboto Condensed';}
+
+@media screen and (min-width: 780px) and (max-width: 1440px) {
+
+  header img{
+    background: linear-gradient(45deg, red, blue, black, blue);
+  justify-content: center;
+  height: 500px;
+
+  
+  }
+
+  .header{
+    justify-content: center;
+    width: 100%;
+  }
+
+  .main{
+    
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .servicios img{
+  
+    justify-content: center;
+    height: 500px;
+   
+    background: linear-gradient(45deg, red, blue, black, blue);
+  
+   
+  }
+    
+  .lomasvisto img{
+    justify-content: center;
+    height: 500px;
+ 
+  background: linear-gradient(45deg, red, blue, black, blue);
+  
+  }
+}
+
 
 body{
   margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
+  padding: 20px;
+  text-align: center; font:150 20px/1.7 'Roboto Condensed';
   color: #fff;
   background: linear-gradient(45deg, red, blue, black, black);
   background-size: 400% 400%;
   position: relative;
 }
 
-header img{
-  height: 400px;
-  width: 1150px;
-}
-
-.servicios img{
-  height: 400px;
-  width: 1150px;
-}
-
-.lomasvisto img{
-  height: 400px;
-  width: 1150px;
-}
 
 .title{
-  color: red
+  color: red;
+  background: linear-gradient(45deg, red, blue, black, green);
+}
+.formulario{
+  color: red;
+  background: linear-gradient(45deg, red, blue, black, green);
+}
+
+.sesion{
+  color: red;
+  background: linear-gradient(45deg, red, blue, black, green);
 }
 
 .color{
@@ -58,7 +93,15 @@ header img{
 .Email{
   color: chartreuse;
 }
-.Sugerencias{
-  color: blue;
+.Sugerencia{
+  color: red;
+}
+
+.Numero{
+  margin-right: 8px;
+}
+
+.Email{
+  margin-right: 17px;
 }
 
