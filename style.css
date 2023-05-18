@@ -1,44 +1,49 @@
 
 
-@media screen and (min-width: 780px) and (max-width: 1440px) {
-
-  header img{
-    background: linear-gradient(45deg, red, blue, black, blue);
-  justify-content: center;
-  height: 500px;
-
-  
-  }
-
-  .header{
-    justify-content: center;
-    width: 100%;
-  }
-
-  .main{
-    
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .servicios img{
-  
-    justify-content: center;
-    height: 500px;
-   
-    background: linear-gradient(45deg, red, blue, black, blue);
-  
-   
-  }
-    
-  .lomasvisto img{
-    justify-content: center;
-    height: 500px;
- 
-  background: linear-gradient(45deg, red, blue, black, blue);
-  
-  }
+@media (max-width: 780px) {
+body{
+  margin: 0px;
+  padding: 0px;
+  width: 275px;
+  background: linear-gradient(90deg, red, blue, blue, blue)
 }
+
+header img{
+  width: 100%;
+  
+
+}
+
+.servicios img{
+  width: 100%;
+  
+}
+
+.lomasvisto img{
+  width: 100%;
+ 
+}
+
+
+header{
+  width: 100%;
+
+}
+
+.title{
+  width: 100%;
+  
+}
+
+
+main{
+  width: 100%; 
+
+}
+
+
+} 
+ 
 
 
 body{
@@ -93,8 +98,8 @@ body{
 .Email{
   color: chartreuse;
 }
-.Sugerencia{
-  color: red;
+.Peticion{
+  color: green;
 }
 
 .Numero{
@@ -105,3 +110,28 @@ body{
   margin-right: 17px;
 }
 
+header img{
+  background: linear-gradient(45deg, red, blue, black, blue);
+justify-content: center;
+height: 500px;
+
+
+}
+
+servicios img{
+  
+  justify-content: center;
+  height: 500px;
+ 
+  background: linear-gradient(45deg, red, blue, black, blue);
+
+ 
+}
+  
+.lomasvisto img{
+  justify-content: center;
+  height: 500px;
+
+background: linear-gradient(45deg, red, blue, black, blue);
+
+}
